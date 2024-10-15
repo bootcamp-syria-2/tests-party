@@ -6,6 +6,15 @@
 To do that, you must not change the code in `exercise1.js`, you must only write code in `exercise1.test.js`.
 To test their code with the tests you wrote, run `npm run test`
 
+The function has 2 arguments `items` and `minValue`, items is an array of objects with 2 properties: `name` and `value`, the function should return ONLY the objects with a value greater than minValue, and they should be sorted from lowest to highest value.
+
+One way to solve the exercise is to create atleast 1 test, to check if the result is correct, but the more you create the more confident you can be that the code works.
+Things you can (should) test are:
+
+- The return type is an array
+- The array only has objects inside (no other data types)
+- The objects in the array follow the same structure has the objects in the `items` argument (`name` and `value`)
+- The function doesn't crash if the both arguments are not provided.
 
 # Exercise 2 - Difficulty Grading - 2
 ### **Exercise: Implement the `formatUserNames` Function**
@@ -13,6 +22,7 @@ To test their code with the tests you wrote, run `npm run test`
 #### **Task Description:**
 In this exercise, the test have already been written, you just need to write the function and test it untill it's working.
 To test your functions, run `npm run test`.
+Try to understand what the tests require for you to pass them. Trying to understand code someone else wrote is a good habit to develop your logical thinking.
 
 # Exercise 3 - Difficulty Grading - 3
 ### **Exercise: Test and Implement the `filterByAge` Function**
