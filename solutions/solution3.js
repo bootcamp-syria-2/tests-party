@@ -1,4 +1,4 @@
-// TESTS
+// TESTS (exercise3.test.js)
 describe('filterByAge', () => {
     // Test 1: Filters users who are at least the given age
     it('should return users who are 18 or older', () => {
@@ -51,7 +51,7 @@ describe('filterByAge', () => {
   });
 
 
-// FUNCTION
+// FUNCTION (exercise3.js)
 
 function filterByAge(users, minAge) {
     return users
