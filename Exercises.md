@@ -1,3 +1,6 @@
+We recommend only having 1 file with the extension `.test.js` so that you can run each exercise's test seperately
+
+
 # Exercise 1 - Difficulty Grading - 1
 ### **Exercise: Test the multiple `filterAndSort` Function**
 
@@ -15,6 +18,7 @@ Things you can (should) test are:
 - The array only has objects inside (no other data types)
 - The objects in the array follow the same structure has the objects in the `items` argument (`name` and `value`)
 - The function doesn't crash if the both arguments are not provided.
+- The function filters and sorts the objects
 
 # Exercise 2 - Difficulty Grading - 2
 ### **Exercise: Implement the `formatUserNames` Function**
