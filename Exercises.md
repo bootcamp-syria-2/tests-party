@@ -1,18 +1,21 @@
-Exercicio 1 (EASY):
+# Exercise 1 - Difficulty Grading - 1
 ### **Exercise: Test the multiple `filterAndSort` Function**
 
 #### **Task Description:**
-We have 3 juniors that made a piece of the code. Its your objective to test with Jest every function to see with one is the right one
+3 juniors that wrote code for a function `filterAndSort`. It's your objective to write tests for the same function with Jest to see which one is the correct one.
+To do that, you must not change the code in `exercise1.js`, you must only write code in `exercise1.test.js`.
+To test their code with the tests you wrote, run `npm run test`
 
 
-Exercicio 2 (HARD):
+# Exercise 2 - Difficulty Grading - 2
 ### **Exercise: Implement the `formatUserNames` Function**
 
 #### **Task Description:**
-In this exercise we have the tests allready made you just need to make the function following the tests
+In this exercise, the test have already been written, you just need to write the function and test it untill it's working.
+To test your functions, run `npm run test`.
 
-Exercise 3 (HARD):
-### **Exercise: Implement and Test the `filterByAge` Function**
+# Exercise 3 - Difficulty Grading - 3
+### **Exercise: Test and Implement the `filterByAge` Function**
 
 #### **Task Description:**
 In this exercise you have to make this function and the correct tests for it, if you miss some tests is ok :)
