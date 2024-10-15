@@ -7,7 +7,7 @@ const input = [
 ]
 const min = 40
 
-const trueResult = [
+const expectedResults = [
     {
         "name": "Product 1",
         "value": 50,
